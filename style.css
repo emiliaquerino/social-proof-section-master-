@@ -3,6 +3,8 @@ body {
   margin: 100px 200px;
 }
 
+
+
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -23,4 +25,10 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.quote-1, .quote-2, .quote-3 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
 }
