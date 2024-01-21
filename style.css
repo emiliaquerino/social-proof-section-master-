@@ -1,8 +1,25 @@
 body {
     font-family: "League Spartan", sans-serif;
-}
-
-h1 {
+    font-size: 15px;
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  
+  h1 {
     color: hsl(300, 43%, 22%);
-}
+  }
+  
+  div {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  h6 {
+    margin: 0;
+  }
+  
 
+  
