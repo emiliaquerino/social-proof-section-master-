@@ -1,25 +1,25 @@
 body {
     font-family: "League Spartan", sans-serif;
-    font-size: 15px;
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+  }
+  
+  .title-message, .rating {
+    padding: 20px;
   }
   
   h1 {
     color: hsl(300, 43%, 22%);
   }
   
-  div {
-    border: 1px solid #ccc;
-    padding: 20px;
-  }
-  
   h6 {
     margin: 0;
   }
-  
 
   
