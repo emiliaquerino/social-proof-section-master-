@@ -20,11 +20,45 @@ body {
   color: hsl(300, 43%, 22%);
 }
 
+.rating {
+background: hsl(300, 24%, 96%);
+}
+
+
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 100px 200px;
+}
+
+.rating {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.star-rating {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.star-rating img {
+  width: 20px; /* Ajuste conforme necessário */
+  height: 20px; /* Ajuste conforme necessário */
+}
+
+.star-rating:last-child {
+  border-bottom: none;
+}
+
 .quotes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   color: hsl(0, 0%, 100%);
+  width: 100%;
 }
 
 .content {
