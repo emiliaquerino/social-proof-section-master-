@@ -25,7 +25,7 @@ body {
 .rating-container {
   display: grid;
   width: auto;
-  height: auto;
+  height: fit-content;
   margin: 0 auto;
 }
 
