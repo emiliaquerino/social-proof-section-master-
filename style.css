@@ -41,6 +41,7 @@ body {
 .rating-1 {
   border-radius: 15px;
   height: 40px;
+  padding-inline: 20px;
 }
 
 .rating-2 {
@@ -48,6 +49,7 @@ body {
   margin-right: -40px;
   border-radius: 15px;
   height: 40px;
+  padding-inline: 20px;
 }
 
 .rating-3 {
@@ -55,6 +57,7 @@ body {
   margin-right: -80px;
   border-radius: 15px;
   height: 40px;
+  padding-inline: 20px;
 }
 
 .star {
