@@ -11,12 +11,9 @@ body {
   margin-bottom: 20px;
 }
 
-.title-message {
-  
-}
-
 .title-message h1 {
   color: hsl(300, 43%, 22%);
+  font-size: 60px; 
 }
 
 .title-message p {
@@ -118,3 +115,6 @@ body {
 .verified {
   color: hsl(333, 80%, 67%);
 }
+
+
+
