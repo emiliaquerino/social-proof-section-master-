@@ -20,6 +20,7 @@ body {
 .title-message p {
   color: hsl(303, 10%, 53%);
   text-align: justify;
+  width: 85%;
 }
 
 .rating-container {
@@ -78,7 +79,7 @@ body {
 .quotes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 30px;
   color: hsl(0, 0%, 100%);
   width: 100%;
 }
