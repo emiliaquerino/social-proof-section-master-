@@ -40,18 +40,21 @@ body {
 
 .rating-1 {
   border-radius: 15px;
+  height: 40px;
 }
 
 .rating-2 {
   margin-left: 40px;
   margin-right: -40px;
   border-radius: 15px;
+  height: 40px;
 }
 
 .rating-3 {
   margin-left: 80px;
   margin-right: -80px;
   border-radius: 15px;
+  height: 40px;
 }
 
 .star {
